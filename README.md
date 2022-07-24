@@ -6,8 +6,14 @@
 1. Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 [22,27,16,2,18,6] -> [2,27,16,22,18,6] -> [2,6,16,22,18,27] -> [2,6,16,18,22,27]
 2. Big-O gösterimini yazınız.
-O(n^2)
+n+n-1+n-2+....
+Worst case= O[n²]
+Average case= O[n²]
+
+Best case= O[n]
 3. Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
+Worst case : [22,27,18,2,16,6]
+Best case : [2,6,16,18,22,27]
 4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
   Ortada olduğu için Average case kapsamına girer.
 
